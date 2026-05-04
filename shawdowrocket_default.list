@@ -15,7 +15,7 @@ private-ip-answer = true
 dns-direct-fallback-proxy = true
 
 [Rule]
-RULE-SET,https://raw.githubusercontent.com/akarotos/conft/refs/heads/main/bnc_direct.list
+RULE-SET,https://raw.githubusercontent.com/akarotos/conft/refs/heads/main/bnc_direct.list,DIRECT
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list,DIRECT
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list,DIRECT
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list,DIRECT
