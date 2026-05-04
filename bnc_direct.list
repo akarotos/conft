@@ -1,0 +1,32 @@
+# --- Binance Core (币安核心业务与 API) ---
+DOMAIN-SUFFIX,binance.com,DIRECT
+DOMAIN-SUFFIX,binance.me,DIRECT
+DOMAIN-SUFFIX,binance.info,DIRECT
+DOMAIN-SUFFIX,binance.charity,DIRECT
+DOMAIN-SUFFIX,binance.co,DIRECT
+DOMAIN-SUFFIX,binance.cloud,DIRECT
+DOMAIN-SUFFIX,binance.us,REJECT
+DOMAIN-KEYWORD,binance,DIRECT
+
+# --- Static Resources & CDN (静态资源与加速，解决图片/K线加载慢) ---
+DOMAIN-SUFFIX,bscdnweb.com,DIRECT
+DOMAIN-SUFFIX,baaas.com,DIRECT
+DOMAIN-SUFFIX,bnappzh.co,DIRECT
+DOMAIN-SUFFIX,binancecnt.com,DIRECT
+DOMAIN-SUFFIX,cloudfront.net,DIRECT
+
+# --- Security & Risk Control (风控与反欺诈，截图中的 forter.com 就在这里) ---
+DOMAIN-SUFFIX,forter.com,DIRECT
+DOMAIN-SUFFIX,bntrace.com,DIRECT
+DOMAIN-SUFFIX,fapi.binance.com,DIRECT
+
+# --- Ecosystem (币安生态，如支付与链相关) ---
+DOMAIN-SUFFIX,binance.org,DIRECT
+DOMAIN-SUFFIX,binance.vision,DIRECT
+DOMAIN-SUFFIX,binancepay.com,DIRECT
+DOMAIN-SUFFIX,bnbstatic.com,DIRECT
+
+# --- Others (截图显示的第三方统计与分析) ---
+# 建议保持 DIRECT 或是维持现状由默认规则屏蔽
+DOMAIN-SUFFIX,appsflyersdk.com,REJECT
+DOMAIN-SUFFIX,app-analytics-services.com,DIRECT
