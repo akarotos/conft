@@ -1,3 +1,5 @@
+#!name=Binance RuleSet
+#!desc=Binance App Direct
 # --- Binance Core (币安核心业务与 API) ---
 DOMAIN-SUFFIX,binance.com,DIRECT
 DOMAIN-SUFFIX,binance.me,DIRECT
